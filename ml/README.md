@@ -11,4 +11,3 @@ _Написано на Python_
 * **task7** - EM-алгоритм
 * **task8** - Обучение без учителя
 * **task9** - Optimal Control Reinforcement Learning (RL)
-* **task10** - Матрично-векторные вычисления
