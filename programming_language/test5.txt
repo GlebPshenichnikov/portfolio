@@ -1,0 +1,16 @@
+program
+var
+    a, b: int;
+    result: bool;
+begin
+    a := 5;
+    b := 10;
+    result := (a < b) and (b > 0);
+    write(result);
+    
+    result := (a > b) or (a = 5);
+    write(result);
+    
+    result := not(a > b);
+    write(result);
+end.

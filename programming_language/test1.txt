@@ -1,0 +1,15 @@
+program
+var
+    i, j: int;
+    x, y: real;
+    b: bool;
+    s: string;
+begin
+    i := 10;
+    j := -5;
+    x := 3.14;
+    y := -2.5;
+    b := true;
+    s := "Hello, world!";
+    write(i, j, x, y, b, s);
+end.

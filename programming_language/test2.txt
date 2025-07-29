@@ -1,0 +1,15 @@
+program
+var
+    a, b, c: int;
+    x, y, z: real;
+begin
+    a := 10;
+    b := 5;
+    c := a + b * 2 + a / b;
+    write(c);
+    
+    x := 2.5;
+    y := 3.0;
+    z := x * y - 1.0 + y / x;
+    write(z);
+end.

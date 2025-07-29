@@ -1,0 +1,12 @@
+program
+var
+    grade: int;
+begin
+    read(grade);
+    case grade of
+        1, 2, 3: write("Fail");
+        4: write("Pass");
+        5: write("Excellent");
+        else write("Invalid grade");
+    end;
+end.

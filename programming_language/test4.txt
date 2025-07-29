@@ -1,0 +1,29 @@
+program
+var
+    i, sum: int;
+    j : int;
+begin
+    sum := 0;
+    for i := 1 to 10 do
+    begin
+        sum := sum + i;
+    end;
+    write(sum);
+
+    i := 1;
+    sum := 0;
+    while (i <= 10) do
+    begin
+        sum := sum + i;
+        i := i + 1;
+    end;
+    write(sum);
+    
+    i := 1;
+    sum := 0;
+    repeat
+        sum := sum + i;
+        i := i + 1;
+    until (i > 10);
+    write(sum);
+end.

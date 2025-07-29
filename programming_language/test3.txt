@@ -1,0 +1,14 @@
+program
+var
+    a, b: int;
+begin
+    read(a);
+    read(b);
+    if (a > b) then
+        write("a is greater than b")
+    else
+        write("a is not greater than b");
+
+    if (a = 1) then 
+        write("a is 1");
+end.
